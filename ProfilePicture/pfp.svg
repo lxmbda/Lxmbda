@@ -1,0 +1,27 @@
+<svg width="450" height="500" viewBox="15 -30 450 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Main-->
+    <linearGradient id="lam" gradientUnits="userSpaceOnUse" x1="100" y1="60" x2="400" y2="410">
+      <stop offset="0" stop-color="#3a2d68"/>
+      <stop offset="1" stop-color="#7c68bf"/>
+    </linearGradient>
+    <!-- block -->
+    <linearGradient id="blk" gradientUnits="userSpaceOnUse" x1="298" y1="111" x2="369" y2="12">
+      <stop offset="0" stop-color="#e2614a"/>
+      <stop offset="1" stop-color="#f59e7c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- lambda: main  -->
+  <path d="M 110 104 C 130 60, 191 74, 220 122 L 388 399"
+        fill="none" stroke="url(#lam)" stroke-width="86"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- lambda: second leg -->
+  <path d="M 252 175 L 92 397"
+        fill="none" stroke="url(#lam)" stroke-width="86" stroke-linecap="round"/>
+
+  <!-- block -->
+  <path d="M 274.22 70.63 L 322.66 150.49 L 378.94 72.42 A 43 43 0 0 0 309.16 22.14 Z"
+        fill="url(#blk)"/>
+</svg>
